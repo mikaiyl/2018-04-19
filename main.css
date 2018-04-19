@@ -26,7 +26,7 @@ aside .title {
     width: 40vw;
 }
 
-@media ( min-width: 802px ) {
+@media ( min-width: 778px ) {
     .main {
         display: flex;
     }
@@ -34,23 +34,23 @@ aside .title {
         border: solid 1px;
         border-radius: 10px;
         height: 100%;
-        width: 20%;
-        margin: 3%;
-        padding: 10px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
 
     }
 
     .content {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: flex-end;
         width: 80%;
     }
 
     .content img {
         border-radius: 10px;
-        height: 256px;
+        height: 236px;
         margin: 9px;
-        width:  256px;
+        width:  236px;
     }
 }
