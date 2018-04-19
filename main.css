@@ -1,0 +1,56 @@
+.main {
+    min-width: 420px;
+    padding: 2vw;
+}
+
+aside .title {
+    border: solid 1px;
+    border-radius: 10px;
+
+    height: 20vh;
+    margin: 3vw;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.content img {
+    border-radius: 10px;
+    height: 40vw;
+    margin: 3vw;
+    width: 40vw;
+}
+
+@media ( min-width: 802px ) {
+    .main {
+        display: flex;
+    }
+    aside {
+        border: solid 1px;
+        border-radius: 10px;
+        height: 100%;
+        width: 20%;
+        margin: 3%;
+        padding: 10px;
+
+    }
+
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .content img {
+        border-radius: 10px;
+        height: 256px;
+        margin: 9px;
+        width:  256px;
+    }
+}
